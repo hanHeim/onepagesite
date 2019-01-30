@@ -10,18 +10,18 @@ line-height: 0px;
 /* general rules */
 
 
-
-
-
 .logo{
     position: fixed;
     display: block;
-    margin: 0% 47%;
     width: 70px;
     height: 70px;  
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
 }
 
 .logo p{
@@ -72,11 +72,19 @@ padding: 1% 4%;
 
 
 .form{
-    width: 48%;
+    width: 50%;
     display: block;
     float: right;
     padding:4% 0% 0% 0%;
     line-height: 195%;
+    margin: 0% auto;
+}
+.form form{
+    width: 450px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="password"]{
+    width: 450px;
 }
 
 .privacyPolicy{
